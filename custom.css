@@ -1,0 +1,136 @@
+p {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    background-color: #000;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Suez One', serif;
+    font-size: 5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px #000;
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+h5 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+form input {
+    font-size: 1.5em;
+}
+
+img {
+    padding: 20px;
+}
+
+.header {
+    background-color: #9840FB;
+    text-align: center;
+}
+
+.searchbox {
+    background-color: #333333;
+    color: #000;
+}
+
+.searchBtn {
+    background-color: #2AFD9C;
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Suez One', serif;
+    border: 1px solid #333333;
+}
+
+.searchBtn:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 5px solid #2AFD9C;
+}
+
+.randomBtn {
+    background-color: #23CDFC;
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Suez One', serif;
+    border: 1px solid #333333;
+}
+
+.randomBtn:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 5px solid #23CDFC;
+}
+
+.resetBtn {
+    background-color: #FC6769;
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Suez One', serif;
+    border: 1px solid #333333;
+}
+
+.resetBtn:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 5px solid #FC6769;
+}
+
+.giphy {
+    font-size: .9em;
+    text-align: center;
+    color: #FFF;
+}
+
+.out {
+    background-color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Button Grow Effect */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
